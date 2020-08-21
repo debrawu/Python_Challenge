@@ -13,4 +13,8 @@ To print to a text file, it was recommended to me to create a variable for a mul
 
 Based on the data, it showed that over the course of 86 months, the company acrued a profit of $38,382,578 dollars, but their average change showed that they were typically losing money by $2,315.12 dollars each month. Their greatest decrease is shown in September of 2013 and their greatest increase in February 2012, so it would be helpful to further investigate why during those months there was so much growth and loss.
 
+PyPoll
 
+For this data set, I was given data from a small, rural town that wanted to modernize the vote counting process. There were (4) candidates running, and the voter ID, county and Candidate that the voter selected were in the CSV file. I needed to find the total number of votes, the complete list of candidates, the percentage of votes for each candidate and the actual number of votes for each, and use those numbers to determine the winner.
+
+Similiarly to the PyBank Data, I opened the file, set the path, created variables & lists and made sure to skip over the first row. Then, I createed a for loop so that we could read through each row and column and determine what to do with the values. In this for loop, I added the votes and set the candidates to a specific row. Then, I set an if statement, so that if there was a new candidate in the row, they would be added to the index, and their vote would be counted for them. If not, 
