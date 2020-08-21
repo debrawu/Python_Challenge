@@ -6,7 +6,7 @@ PBcsv = os.path.join("Resources","budget_data.csv")
 # print(PBcsv)
 
 #define variables
-Months = 0
+Months = 1
 TotalPL = 0
 currentPL = 0
 nextPL = 0
